@@ -1,0 +1,80 @@
+@font-face {
+    font-family: 'CursedTimerFont';
+    src: url(customFonts/CursedTimerUlil-Aznm.ttf);
+}
+
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    background-color: #a4d6d6;
+}
+
+
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    width: 575px;
+    height: 50vh;
+    background-color: #1B244A;
+    margin-top: 20px;
+    border: 7px solid #ffffff;
+    border-radius: 20px;
+}
+
+.pointsContainer {
+    display: flex;
+}
+
+h3 {
+    color: #ffffff;
+    font-size: 40px; 
+    text-align: center;
+    margin-bottom: 0;
+}
+.scoreWindow {
+    width: 155px;
+    height: 120px;
+    background-color: 080001;
+    padding: 0px 10px 0px 10px;
+    margin: 10px;
+    border: 1px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#home-Score, #guest-Score {
+    position: absolute;
+    font-size: 80px;
+    font-family: 'CursedTimerFont';
+    color: #F94F6D;
+    margin: 0;
+    margin-top: 10px;
+}
+.pointsContainer {
+    width: 90%;
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 0px 0px 10px;
+}
+
+button {
+    background-color: #1B244A;
+    padding: 10px;
+    color: #ffffff;
+    font-family: 'CursedTimerFont';
+    font-size: larger;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+}
+button:hover {
+    background-color: #051a74;
+}
